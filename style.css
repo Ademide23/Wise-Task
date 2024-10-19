@@ -1,0 +1,217 @@
+{padding: 0;
+    margin: 0;
+
+}
+.hero 
+{height: 100vh;
+    background-color: black;
+background-image: url('./Rectangle\ 2.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.black {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(110, 109, 109, 0.478);
+    position: absolute;
+    top: 1;
+    left: 1;
+    width: 100%;
+    /*filter*/
+
+}
+
+
+nav{
+padding: 1rem;
+display: flex;
+justify-content: space-between;
+position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    z-index: 4;
+}
+
+nav ul{display: flex;
+}
+
+nav ul li{
+list-style: none;
+margin: 1.5rem;
+color: white;
+transition: 2s;
+cursor: pointer;
+font-family: Mulish sans-serif 
+font-size: 16px;
+font-weight: 400;
+line-height: 20.08px;
+text-align: left;
+
+}
+nav img{
+    transition: 1s;
+}
+
+nav img:hover{
+    scale: 1.3;
+}
+nav img{
+    height: 0%;
+}
+
+nav ul li:hover{
+color: blue;
+}
+
+.Home{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: Mulish sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    z-index: 1;
+
+}
+
+.Home h3{
+font-size: 40px;
+font-weight: 50px;
+line-height: 51.56px;
+
+}
+
+.Home h1{ 
+font-size: 70px;
+font-weight: 500px;
+line-height: 80px;
+}
+
+.Home p{ 
+    font-family: Mulish;
+font-size: 22px;
+font-weight: 100px;
+line-height: 27.61px;
+    }
+
+.Home button{
+    background-color: blue;
+  cursor: pointer;
+border: none;
+color: white;
+}
+.Home button:hover{
+    color: blue;
+    background-color: white;
+}
+    
+.section2{
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.section2-hero{
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.New-Dept{
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+    width: 270px;
+       
+}
+
+.Departments{
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    height: 5vh;
+    height: 200px;
+        top: 1478px;
+        left: 120px;
+        border-radius: 10px 10px 10px 10px;
+        background: #e9e9ec;
+        box-shadow: 2px 2px 2px 2px #c3c2c2
+        
+
+    
+}
+.New-DeptII {
+    height: 3vh;
+    display: flex;
+    margin: 15rem;
+    width: 100px;
+    margin-left: 0%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.Department{
+    cursor: pointer;
+    text-align: center;
+    height: 2vh;
+    height: 50px;
+    
+}
+.ul  {
+        list-style: none;
+      }
+      
+      ul li:before {
+        content: '✓';
+}
+
+.OurServices {
+    float: left;
+    width: 300px; 
+    border: 5px solid #0052FF80; 
+    padding: 10px;
+    margin: 20px;
+gap: 0px;
+opacity: 0px;
+    cursor: pointer;
+    
+}
+
+.OurService {
+    width: 300px; 
+    border: 5px solid #0052FF80; 
+    background-color:#0352fb80;
+    padding: 10px;
+    margin: 20px;
+    float: left;
+    cursor: pointer;   
+}
+
+.AQ button{
+      background-color: blue;
+      cursor: pointer;
+    border: none;
+    color: white;
+    }
+
+    .AQ button:hover{
+        color: blue;
+        background-color: white;
+}
